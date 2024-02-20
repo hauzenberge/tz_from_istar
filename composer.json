@@ -1,0 +1,16 @@
+{
+    "name": "CustomizeAddToCartButton",
+    "type": "shopware-platform-plugin",
+    "description": "TZ",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Administration\\PluginSettings": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Customize\\Add\\To\\CartButton"
+    }
+}

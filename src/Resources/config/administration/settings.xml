@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/6.4/src/Core/System/SystemConfig/Schema/system-config.xsd">
+    <section name="CustomizeAddToCartButton" label="Customize Add To Cart Button">
+        <property name="color" type="colorpicker">
+            <label>Choose Button Color</label>
+        </property>
+    </section>
+</settings>
